@@ -26,8 +26,8 @@
 
 * Скачайте код
 * Заполните .env
-** SECRET_KEY= секретный ключ приложения джанго
-** DATABASE_URL= psql://имя:пароль@адрес бд/название бд. для проверки используйте(psql://test:test@127.0.0.1:5432/test)
-* ALLOWED_HOSTS=localhost,127.0.0.1
+- SECRET_KEY= секретный ключ приложения джанго
+- DATABASE_URL= psql://имя:пароль@адрес бд/название бд. для проверки используйте(psql://test:test@127.0.0.1:5432/test)
+- ALLOWED_HOSTS=localhost,127.0.0.1
 * Выполните команду docker-compose up
 * ```./manage.py runserver ```
